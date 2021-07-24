@@ -1,0 +1,26 @@
+(1) run the following sql queries...... 
+
+create database srmsf;
+CREATE TABLE `srmsf`.`bbr` 
+( `name` VARCHAR(20) NOT NULL , `email` VARCHAR(50) NOT NULL , `cn` VARCHAR(20) NOT NULL , `gender` VARCHAR(10) NOT NULL , `tn` VARCHAR(15) NOT NULL , `totm` INT(20) NOT NULL ,
+ `phn` VARCHAR(13) NOT NULL , `lof` VARCHAR(200) NOT NULL ) ENGINE = InnoDB;
+CREATE TABLE `srmsf`.`cher` 
+( `name` VARCHAR(20) NOT NULL , `email` VARCHAR(50) NOT NULL , `cn` VARCHAR(20) NOT NULL , `gender` VARCHAR(10) NOT NULL , `phn` VARCHAR(13) NOT NULL ) ENGINE = InnoDB;
+CREATE TABLE `srmsf`.`crir` 
+( `name` VARCHAR(20) NOT NULL , `email` VARCHAR(50) NOT NULL , `cn` VARCHAR(20) NOT NULL , `tn` VARCHAR(15) NOT NULL , `totm` INT(20) NOT NULL ,
+ `phn` VARCHAR(13) NOT NULL , `lof` VARCHAR(200) NOT NULL ) ENGINE = InnoDB;
+CREATE TABLE `srmsf`.`ftr` 
+( `name` VARCHAR(20) NOT NULL , `email` VARCHAR(50) NOT NULL , `cn` VARCHAR(20) NOT NULL , `tn` VARCHAR(15) NOT NULL , `totm` INT(20) NOT NULL ,
+ `phn` VARCHAR(13) NOT NULL , `lof` VARCHAR(200) NOT NULL ) ENGINE = InnoDB;
+CREATE TABLE `srmsf`.`tbr` 
+( `name` VARCHAR(20) NOT NULL , `email` VARCHAR(50) NOT NULL , `cn` VARCHAR(20) NOT NULL , `tn` VARCHAR(15) NOT NULL , `totm` INT(20) NOT NULL ,
+ `phn` VARCHAR(13) NOT NULL , `lof` VARCHAR(200) NOT NULL ) ENGINE = InnoDB;
+CREATE TABLE `srmsf`.`ttr` 
+( `name` VARCHAR(20) NOT NULL , `email` VARCHAR(50) NOT NULL , `cn` VARCHAR(20) NOT NULL , `gender` VARCHAR(10) NOT NULL , `type` VARCHAR(10) NOT NULL ,
+ `phn` VARCHAR(13) NOT NULL , `lof` VARCHAR(200) NOT NULL ) ENGINE = InnoDB;
+CREATE TABLE `srmsf`.`vbr` 
+( `name` VARCHAR(20) NOT NULL , `email` VARCHAR(50) NOT NULL , `cn` VARCHAR(20) NOT NULL , `tn` VARCHAR(15) NOT NULL , `totm` INT(20) NOT NULL ,
+ `phn` VARCHAR(13) NOT NULL , `lof` VARCHAR(200) NOT NULL ) ENGINE = InnoDB;
+
+
+
